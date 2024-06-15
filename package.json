@@ -1,0 +1,51 @@
+{
+  "name": "bunny-sdk",
+  "version": "0.0.0",
+  "private": false,
+  "type": "module",
+  "description": "TypeScript SDK for BunnyCDN 🐰",
+  "keywords": [
+    "BunnyCDN",
+    "bunny.net",
+    "bunny",
+    "cdn",
+    "bunny-launcher",
+    "typescript",
+    "sdk",
+    "api"
+  ],
+  "homepage": "https://bunny-launcher.com/bunny-sdk/typescript",
+  "bugs": "https://github.com/jlarmstrongiv/bunny-sdk-typescript/issues",
+  "repository": "https://github.com/jlarmstrongiv/bunny-sdk-typescript.git",
+  "license": "AGPL-3.0-only",
+  "author": "John L. Armstrong IV",
+	"sideEffects": false,
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts --clean"
+  },
+  "exports": {
+		"types": "./dist/index.d.ts",
+		"default": "./dist/index.js"
+	},
+  "files": [
+		"dist"
+	],
+  "dependencies": {
+    "@microsoft/kiota-abstractions": "^1.0.0-preview.56",
+    "@microsoft/kiota-http-fetchlibrary": "^1.0.0-preview.55",
+    "@microsoft/kiota-serialization-form": "^1.0.0-preview.45",
+    "@microsoft/kiota-serialization-json": "^1.0.0-preview.56",
+    "@microsoft/kiota-serialization-multipart": "^1.0.0-preview.34",
+    "@microsoft/kiota-serialization-text": "^1.0.0-preview.53"
+  },
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.4",
+    "tsup": "^8.1.0",
+    "typescript": "^5.4.5"
+  },
+  "packageManager": "npm@10.8.1",
+  "engines": {
+    "node": "20.14.0",
+    "npm": "10.8.1"
+  }
+}
