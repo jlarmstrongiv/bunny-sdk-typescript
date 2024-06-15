@@ -1,5 +1,7 @@
 # [`bunny-sdk`](https://bunny-launcher.com/bunny-sdk/typescript)
 
+![NPM Version](https://img.shields.io/npm/v/bunny-sdk?color=blue)
+
 ## Install
 
 ```shell
@@ -13,4 +15,5 @@ Please read the [docs](https://bunny-launcher.com/bunny-sdk/typescript) for usag
 ## Contributing
 
 - `corepack enable npm`
+- `npm install`
 - `npm run build`
