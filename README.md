@@ -17,6 +17,8 @@ Please read the [docs](https://bunny-launcher.com/bunny-sdk/typescript) for usag
 - `corepack enable npm`
 - `npm install`
 - `npm run build`
+- `git add -A`
+- `git commit -m "message"`
 - `npm version patch`
 - `git push`
 - `npm publish`
