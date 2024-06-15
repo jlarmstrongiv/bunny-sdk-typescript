@@ -18,4 +18,5 @@ Please read the [docs](https://bunny-launcher.com/bunny-sdk/typescript) for usag
 - `npm install`
 - `npm run build`
 - `npm version patch`
+- `git push`
 - `npm publish`
