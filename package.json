@@ -1,6 +1,6 @@
 {
   "name": "bunny-sdk",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "type": "module",
   "description": "TypeScript SDK for BunnyCDN 🐰",
