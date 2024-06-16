@@ -1,4 +1,4 @@
-# [`bunny-sdk`](https://bunny-launcher.com/bunny-sdk/typescript)
+# bunny-sdk
 
 ![NPM Version](https://img.shields.io/npm/v/bunny-sdk?color=blue)
 
