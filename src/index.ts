@@ -6,6 +6,8 @@ import { createEdgeStorageApiClient as createEdgeStorageApiClientKiota } from ".
 import type { EdgeStorageApiClient } from "./generated/EdgeStorageApiClient/edgeStorageApiClient"
 import { createStreamApiClient as createStreamApiClientKiota } from "./generated/StreamApiClient/streamApiClient"
 import type { StreamApiClient } from "./generated/StreamApiClient/streamApiClient"
+import { createLoggingApiClient as createLoggingApiClientKiota } from "./generated/LoggingApiClient/loggingApiClient"
+import type { LoggingApiClient } from "./generated/LoggingApiClient/loggingApiClient"
 
 
 export type CreateBunnyApiClientParameters = {
@@ -33,4 +35,13 @@ export function createStreamApiClient({ accessKey }: CreateStreamApiClientParame
   const authenticationProvider = new ApiKeyAuthenticationProvider(accessKey, "AccessKey", ApiKeyLocation.Header)
   const fetchAdapter = new FetchRequestAdapter(authenticationProvider)
   return createStreamApiClientKiota(fetchAdapter)
+}
+
+export type CreateLoggingApiClientParameters = {
+  accessKey: string
+}
+export function createLoggingApiClient({ accessKey }: CreateLoggingApiClientParameters): LoggingApiClient {
+  const authenticationProvider = new ApiKeyAuthenticationProvider(accessKey, "AccessKey", ApiKeyLocation.Header)
+  const fetchAdapter = new FetchRequestAdapter(authenticationProvider)
+  return createLoggingApiClientKiota(fetchAdapter)
 }
