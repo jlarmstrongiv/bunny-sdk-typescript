@@ -16,7 +16,10 @@
   ],
   "homepage": "https://bunny-launcher.com/bunny-sdk/typescript",
   "bugs": "https://github.com/jlarmstrongiv/bunny-sdk-typescript/issues",
-  "repository": "https://github.com/jlarmstrongiv/bunny-sdk-typescript.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlarmstrongiv/bunny-sdk-typescript.git"
+  },
   "license": "AGPL-3.0-only",
   "author": "John L. Armstrong IV",
   "sideEffects": false,
