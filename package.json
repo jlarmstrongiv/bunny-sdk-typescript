@@ -3,7 +3,7 @@
   "version": "0.0.10",
   "private": false,
   "type": "module",
-  "description": "TypeScript SDK for BunnyCDN 🐰",
+  "description": "TypeScript SDK for bunny.net 🐰",
   "keywords": [
     "BunnyCDN",
     "bunny.net",
