@@ -2,7 +2,7 @@
 
 [![NPM Version](https://img.shields.io/npm/v/bunny-sdk?color=blue)](https://www.npmjs.com/package/bunny-sdk)
 
-## Install
+## Installation
 
 ```shell
 npm install bunny-sdk
