@@ -24,16 +24,16 @@
   "author": "John L. Armstrong IV",
   "sideEffects": false,
   "scripts": {
-    "prebuild": "npx rimraf dist",
-    "build": "npx tsc --build --declaration",
-    "postbuild": "npx rimraf dist/tests"
-  },
-  "exports": {
-    "./package.json": "./package.json",
-    ".": "./dist"
+    "prebuild": "npx rimraf dist index.js index.d.ts tests BunnyApiClient EdgeStorageApiClient LoggingApiClient StreamApiClient",
+    "build": "npx tsc --build --declaration"
   },
   "files": [
-    "dist"
+    "BunnyApiClient",
+    "EdgeStorageApiClient",
+    "LoggingApiClient",
+    "StreamApiClient",
+    "index.js",
+    "index.d.ts"
   ],
   "dependencies": {
     "@microsoft/kiota-abstractions": "^1.0.0-preview.56",

@@ -1,9 +1,16 @@
-dist
-tests
-src/BunnyApiClient
-src/EdgeStorageApiClient
-src/LoggingApiClient
-src/StreamApiClient
+/dist
+/src/tests
+/src/BunnyApiClient
+/src/EdgeStorageApiClient
+/src/LoggingApiClient
+/src/StreamApiClient
+/tests
+/BunnyApiClient
+/EdgeStorageApiClient
+/LoggingApiClient
+/StreamApiClient
+/index.js
+/index.d.ts
 
 # Created by https://www.toptal.com/developers/gitignore/api/node,macos,windows,linux
 # Edit at https://www.toptal.com/developers/gitignore?templates=node,macos,windows,linux
