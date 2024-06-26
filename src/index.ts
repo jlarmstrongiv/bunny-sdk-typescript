@@ -25,10 +25,12 @@ export function createBunnyApiClient({ accessKey }: CreateBunnyApiClientParamete
 
 export type CreateEdgeStorageApiClientParameters = {
   accessKey: string
+  baseUrl: string
 }
-export function createEdgeStorageApiClient({ accessKey }: CreateEdgeStorageApiClientParameters): EdgeStorageApiClient {
+export function createEdgeStorageApiClient({ accessKey, baseUrl }: CreateEdgeStorageApiClientParameters): EdgeStorageApiClient {
   const authenticationProvider = new ApiKeyAuthenticationProvider(accessKey, "AccessKey", ApiKeyLocation.Header)
   const fetchAdapter = new FetchRequestAdapter(authenticationProvider)
+  fetchAdapter.baseUrl = baseUrl
   return createEdgeStorageApiClientKiota(fetchAdapter)
 }
 
