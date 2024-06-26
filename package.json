@@ -30,10 +30,7 @@
   },
   "exports": {
     "./package.json": "./package.json",
-    "./*": {
-      "default": "./dist/*.js",
-      "types": "./dist/*.d.ts"
-    }
+    ".": "./dist"
   },
   "files": [
     "dist"
