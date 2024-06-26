@@ -1,6 +1,9 @@
 dist
 tests
-src/generated
+src/BunnyApiClient
+src/EdgeStorageApiClient
+src/LoggingApiClient
+src/StreamApiClient
 
 # Created by https://www.toptal.com/developers/gitignore/api/node,macos,windows,linux
 # Edit at https://www.toptal.com/developers/gitignore?templates=node,macos,windows,linux

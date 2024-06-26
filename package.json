@@ -24,11 +24,13 @@
   "author": "John L. Armstrong IV",
   "sideEffects": false,
   "scripts": {
-    "build": "tsup src/index.ts --format esm --dts --clean"
+    "prebuild": "npx rimraf dist",
+    "build": "npx tsc --build --declaration",
+    "postbuild": "npx rimraf dist/tests"
   },
   "exports": {
-    "types": "./dist/index.d.ts",
-    "default": "./dist/index.js"
+    "./package.json": "./package.json",
+    "./*": "./dist/*.js"
   },
   "files": [
     "dist"
@@ -45,7 +47,7 @@
     "@tsconfig/node20": "^20.1.4",
     "@types/node": "^20.14.2",
     "esno": "^4.7.0",
-    "tsup": "^8.1.0",
+    "rimraf": "^5.0.7",
     "typescript": "^5.4.5"
   },
   "packageManager": "npm@10.8.1",
