@@ -27,6 +27,7 @@
     "prebuild": "npx rimraf dist index.js index.d.ts tests BunnyApiClient EdgeStorageApiClient LoggingApiClient StreamApiClient",
     "build": "npx tsc --build --declaration"
   },
+  "main": "index.js",
   "files": [
     "bunnyApiClient",
     "edgeStorageApiClient",
