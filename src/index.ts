@@ -9,6 +9,11 @@ import type { StreamApiClient } from "./streamApiClient/streamApiClient"
 import { createLoggingApiClient as createLoggingApiClientKiota } from "./loggingApiClient/loggingApiClient"
 import type { LoggingApiClient } from "./loggingApiClient/loggingApiClient"
 
+export type { BunnyApiClient } from "./bunnyApiClient/bunnyApiClient"
+export type { EdgeStorageApiClient } from "./edgeStorageApiClient/edgeStorageApiClient"
+export type { StreamApiClient } from "./streamApiClient/streamApiClient"
+export type { LoggingApiClient } from "./loggingApiClient/loggingApiClient"
+
 export type CreateBunnyApiClientParameters = {
   accessKey: string
 }
