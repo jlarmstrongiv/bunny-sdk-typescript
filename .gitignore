@@ -1,14 +1,14 @@
 /dist
 /src/tests
-/src/BunnyApiClient
-/src/EdgeStorageApiClient
-/src/LoggingApiClient
-/src/StreamApiClient
+/src/bunnyApiClient
+/src/edgeStorageApiClient
+/src/loggingApiClient
+/src/streamApiClient
 /tests
-/BunnyApiClient
-/EdgeStorageApiClient
-/LoggingApiClient
-/StreamApiClient
+/bunnyApiClient
+/edgeStorageApiClient
+/loggingApiClient
+/streamApiClient
 /index.js
 /index.d.ts
 

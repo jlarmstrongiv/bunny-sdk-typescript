@@ -1,13 +1,13 @@
 import { ApiKeyAuthenticationProvider, ApiKeyLocation } from "@microsoft/kiota-abstractions"
 import { FetchRequestAdapter } from "@microsoft/kiota-http-fetchlibrary"
-import { createBunnyApiClient as createBunnyApiClientKiota } from "./BunnyApiClient/bunnyApiClient"
-import type { BunnyApiClient } from "./BunnyApiClient/bunnyApiClient"
-import { createEdgeStorageApiClient as createEdgeStorageApiClientKiota } from "./EdgeStorageApiClient/edgeStorageApiClient"
-import type { EdgeStorageApiClient } from "./EdgeStorageApiClient/edgeStorageApiClient"
-import { createStreamApiClient as createStreamApiClientKiota } from "./StreamApiClient/streamApiClient"
-import type { StreamApiClient } from "./StreamApiClient/streamApiClient"
-import { createLoggingApiClient as createLoggingApiClientKiota } from "./LoggingApiClient/loggingApiClient"
-import type { LoggingApiClient } from "./LoggingApiClient/loggingApiClient"
+import { createBunnyApiClient as createBunnyApiClientKiota } from "./bunnyApiClient/bunnyApiClient"
+import type { BunnyApiClient } from "./bunnyApiClient/bunnyApiClient"
+import { createEdgeStorageApiClient as createEdgeStorageApiClientKiota } from "./edgeStorageApiClient/edgeStorageApiClient"
+import type { EdgeStorageApiClient } from "./edgeStorageApiClient/edgeStorageApiClient"
+import { createStreamApiClient as createStreamApiClientKiota } from "./streamApiClient/streamApiClient"
+import type { StreamApiClient } from "./streamApiClient/streamApiClient"
+import { createLoggingApiClient as createLoggingApiClientKiota } from "./loggingApiClient/loggingApiClient"
+import type { LoggingApiClient } from "./loggingApiClient/loggingApiClient"
 
 export type CreateBunnyApiClientParameters = {
   accessKey: string

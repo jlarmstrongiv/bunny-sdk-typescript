@@ -28,10 +28,10 @@
     "build": "npx tsc --build --declaration"
   },
   "files": [
-    "BunnyApiClient",
-    "EdgeStorageApiClient",
-    "LoggingApiClient",
-    "StreamApiClient",
+    "bunnyApiClient",
+    "edgeStorageApiClient",
+    "loggingApiClient",
+    "streamApiClient",
     "index.js",
     "index.d.ts"
   ],
