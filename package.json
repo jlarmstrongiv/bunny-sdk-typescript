@@ -14,7 +14,7 @@
     "sdk",
     "api"
   ],
-  "homepage": "https://bunny-launcher.com/bunny-sdk/typescript",
+  "homepage": "https://bunny-launcher.com/bunny-sdk/languages/typescript/",
   "bugs": "https://github.com/jlarmstrongiv/bunny-sdk-typescript/issues",
   "repository": {
     "type": "git",
