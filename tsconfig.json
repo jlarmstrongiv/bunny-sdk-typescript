@@ -1,8 +1,6 @@
 {
   "extends": "@tsconfig/node20/tsconfig.json",
   "compilerOptions": {
-    "moduleResolution": "Bundler",
-    "module": "ESNext",
     "outDir": "./"
   },
   "include": ["src"],
