@@ -2,6 +2,7 @@
 
 - `corepack enable npm`
 - `npm login`
+- `npx npm-check-updates -u`
 - `npm install`
 - `npm run build`
 - `git add -A`
