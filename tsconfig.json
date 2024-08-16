@@ -2,7 +2,6 @@
   "extends": "@tsconfig/node20/tsconfig.json",
   "compilerOptions": {
     "outDir": "./",
-    "strictNullChecks": false
   },
   "include": ["src"],
   "exclude": []
