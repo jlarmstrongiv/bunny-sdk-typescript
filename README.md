@@ -10,4 +10,4 @@ npm install bunny-sdk
 
 ## Documentation
 
-Please read the [docs](https://bunny-launcher.com/bunny-sdk/languages/typescript/) for usage and examples.
+Please read the [docs](https://bunny-launcher.net/bunny-sdk/languages/typescript/) for usage and examples.
